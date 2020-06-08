@@ -22,7 +22,7 @@ Importe para sua IDE de preferencia.
 
 Para gerenciar as depencias, este projeto utiliza o *Gradle*, como citado a cima.
 
-Após as depencias instaladas execute ele através da classe main: **ApplicationMain**
+Após as depencias instaladas execute o projeto através da classe main: **ApplicationMain**
 
 Por padrão o projeto esta configurado para executar na porta **8091**.
 
@@ -39,8 +39,8 @@ Preencha os payloads (dados do jogador), caso seja obrigatorio, e clique em **Ex
 
 |   End-Point                 |  Metodo |  Payload                  |  Tipo de Retorno                                                |
 |-----------------------------|---------|---------------------------|-----------------------------------------------------------------|
-| /v1/game/score              |  POST   |{ "score": 0, "userId": 0 }| Não possui retorno                                              |
-| /v1/game/highscorelist      |  GET    | Não Possui                | Lista de Objetos Json  [{"position": 0, "score": 0,"userId": 0}]|	
+| /v1/game/score              |  POST   |{ "score": 0,<br> "userId": 0 }| Não possui retorno                                              |
+| /v1/game/highscorelist      |  GET    | Não Possui                | Lista de Objetos Json <br> [{"position": 0, "score": 0,"userId": 0}]|	
 | /v1/game/{userId}/position  |  GET    | {"userId": 0}             | Objeto  Json    {"position": 0, "score": 0,"userId": 0}         |	
 
 
