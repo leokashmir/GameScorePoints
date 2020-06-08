@@ -1,5 +1,5 @@
 # Game Score  
-###### Projeto Back-end para mini jogo)
+###### Projeto Back-end para mini jogo
 Este projeto tem como objetivo a criação back-end de um mini-jogo baseado em HTTP em Java
 que registre pontos de pontuação para diferentes usuários, com a capacidade de retornar a posição atual do usuário e a lista de pontuações mais altas.
 
@@ -22,17 +22,17 @@ Importe para sua IDE de preferencia.
 
 Para gerenciar as depencias, este projeto utiliza o *Gradle*, como citado a cima.
 
-Após as depencias instaladas execute ele através da classe main: *ApplicationMain*
+Após as depencias instaladas execute ele através da classe main: **ApplicationMain**
 
-Por padrão o projeto esta configurado para executar na porta *8091*.
+Por padrão o projeto esta configurado para executar na porta **8091**.
 
 Basta digitar a Url *http://localhost:8091/swagger-ui.html#/*
 
 O Swagger já esta pronto para os testes, cliquem em game-controller, para acessar os end-points.
 
-Clique em um dos end-points e em seguida clique no botao *try it out*.
+Clique em um dos end-points e em seguida clique no botao **try it out**.
 
-Preencha os payloads (dados do jogador), caso seja obrigatorio, e clique em *Execute*
+Preencha os payloads (dados do jogador), caso seja obrigatorio, e clique em **Execute**
 
 ## Serviços
 
